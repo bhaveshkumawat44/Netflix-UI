@@ -200,11 +200,12 @@
         border: 1px solid rgba(255, 255, 255, 0.25)
     }
 
-    #lang-bottom{
+     #lang-top{
         border-radius: 5px;
         padding: 2px;
         border: 1px solid rgba(255, 255, 255, 0.25)
     }
+
 
     nav .logo {
         width: 88px;
