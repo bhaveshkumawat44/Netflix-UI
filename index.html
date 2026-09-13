@@ -62,7 +62,7 @@
                     <div class="content4">
                         <form>
                             <div class="emailbox">
-                                <input type="email" id="email" class="netflix-input" placeholder=" " required
+                                <input type="email" id="email-top" class="netflix-input" placeholder=" " required
                                     autocomplete="off">
                                 <label for="email" class="netflix-label">Email address</label>
                             </div>
@@ -81,6 +81,53 @@
 
 
     <main>
+ <section class="trendsection">
+        <div class="text1">
+            <h2>Trending Now</h2>
+        </div>
+
+        <div class="mainTrend">
+            <div class="arrowbtnbox">
+                <button id="prevBtn" class="hscroll">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="m8.414 12 7.293 7.293-1.414 1.414-8-8a1 1 0 0 1 0-1.414l8-8 1.414 1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="posters">
+                <!-- JavaScript will populate the <li> items here -->
+                <ul id="movieList"></ul>
+            </div>
+
+            <div class="arrowbtnbox">
+                <button id="nextBtn" class="hscroll">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="m15.586 12-7.293 7.293 1.414 1.414 8-8a1 1 0 0 0 0-1.414l-8-8-1.414 1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Modal -->
+    <section class="trendmodal">
+        <div id="movieModal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <button id="closeModal" class="close-btn">&times;</button>
+                <div id="modalPoster" class="modal-poster"></div>
+                <div class="movieinfo">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDesc"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
         <section class="first">
             <div class="text">
                 <span>Enjoy on your TV</span>
@@ -189,7 +236,7 @@
                     <div class="content4 againemail">
                         <form>
                             <div class="emailbox">
-                                <input type="email" id="email" class="netflix-input" placeholder=" " required
+                                <input type="email" id="email-bottom" class="netflix-input" placeholder=" " required
                                     autocomplete="off">
                                 <label for="email" class="netflix-label">Email address</label>
                             </div>
@@ -263,6 +310,6 @@
         <p class="lastp">This Page Is Made By Bhavesh Kumawat.</p>         
 </div> 
     </footer>
-
 </body>
+<script src="script.js"></script>
 </html>

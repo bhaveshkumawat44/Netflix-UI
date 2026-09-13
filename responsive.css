@@ -102,6 +102,23 @@
         font-size: 15px;
     }
 
+    .trendsection {
+        width: 90vw; 
+        padding: 10px 0;
+    }
+
+    #posters ul {
+        gap: 35px; 
+    }
+    
+    .modal-content {
+        max-width: 85vw; 
+    }
+
+    .modal-poster {
+        height: 300px; 
+    }
+
 }
 
 
@@ -143,6 +160,64 @@
 
     footer .footer2 .lastp {
         font-size: 15px;
+    }
+
+    /* trending section */
+    .trendsection {
+        width: 92vw;
+        gap: 15px;
+    }
+
+   
+    .arrowbtnbox {
+        display: none;
+    }
+
+   
+    #posters {
+        padding: 15px 10px;
+        -webkit-overflow-scrolling: touch; /* Smooth iOS swipe */
+    }
+
+    #posters ul {
+        gap: 28px;
+    }
+
+    
+    .postersbtn div {
+        width: 8.5rem;
+        height: 12rem;
+    }
+
+   
+    .postersbtn span {
+        font-size: 4.5rem;
+        -webkit-text-stroke: 0.15rem rgb(255, 255, 255);
+        left: -12px;
+    }
+
+    
+    .modal-content {
+        width: 92vw;
+        max-height: 90vh;
+        overflow-y: auto; 
+    }
+
+    .modal-poster {
+        height: 220px;
+    }
+
+    .movieinfo {
+        padding: 1rem 1.25rem 1.5rem;
+    }
+
+    .movieinfo h3 {
+        font-size: 1.25rem;
+    }
+
+    .movieinfo p {
+        font-size: 0.9rem;
+        line-height: 1.4;
     }
 
 
@@ -237,6 +312,26 @@
 
     .lang {
         gap: 6px;
+    }
+
+    /* trending section */
+    .trendsection h2 {
+        font-size: 1.25rem;
+    }
+
+    .postersbtn div {
+        width: 7.2rem;
+        height: 10.2rem;
+    }
+
+    .postersbtn span {
+        font-size: 3.8rem;
+        -webkit-text-stroke: 0.12rem rgb(255, 255, 255);
+        left: -10px;
+    }
+
+    .modal-poster {
+        height: 180px;
     }
 }
 
