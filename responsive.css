@@ -207,6 +207,10 @@
         height: 220px;
     }
 
+    #trailerPlayer {
+        height: 220px;
+    }
+
     .movieinfo {
         padding: 1rem 1.25rem 1.5rem;
     }
